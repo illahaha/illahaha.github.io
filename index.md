@@ -1,18 +1,8 @@
 ---
 layout: page
-title: illa github page!
+title: 惊鸿一瞥
 tagline: Supporting tagline
 ---
 {% include JB/setup %}
-
-
-
-## 简介
-
-仅仅只是娱乐.
-
-#网志
-#记录
-
 
 
