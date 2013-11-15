@@ -6,13 +6,32 @@ category: "github"
 tags: [jekyll]
 ---
 {% include JB/setup %}
+# jekyll+github=blog
 
-#jekyll+github=my blog
+------
 
-======
+* 搭建环境
+* 搭建过程
+* 后记
 
-*准备工作
+------
 
-*搭建步骤
+## 搭建环境
 
-*后记
+###### github配置
+1. 注册github帐号.
+2. 创建一个名字为*帐号名.github.io*的repository.
+3. 按下一步注册成功，此时不要选github上提供的模板，不灵活.
+
+
+###### jekyll配置
+1. Ruby
+2. Bundler
+>gem install bundler
+
+## 搭建过程
+
+
+
+
+## 后记
