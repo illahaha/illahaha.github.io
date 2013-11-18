@@ -26,7 +26,7 @@ tags: [jekyll]
 ###### jekyll配置
 1. Ruby
 2. Bundler
-> gem install bundler
+   >  gem install bundler
 3. Jekyll
 
 ## 搭建过程
