@@ -6,16 +6,11 @@ category: "github"
 tags: [jekyll]
 ---
 {% include JB/setup %}
-# jekyll+github=blog
-
-------
-
-* 搭建环境
-* 搭建过程
-* 后记
-
-------
-
+---
+*	搭建环境
+*	搭建过程
+*	后记
+---
 ## 搭建环境
 
 ###### github配置
@@ -34,8 +29,7 @@ tags: [jekyll]
 2. 在*Using Themes*选择*Find Themes*挑选一个安装.
 3. 修改Themes的版本信息等内容，注意那些内容在根目录下的配置里修改.
 4. 提交自定义修改后的模板.
-
-
+---
 ## 后记
    github 上的blog是不限流量可自定义代码的平台，适合码农玩。
 
