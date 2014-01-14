@@ -11,6 +11,7 @@ tags: [jekyll]
 *	搭建环境
 *	搭建过程
 *	后记
+
 ---
 ## 搭建环境
 
@@ -22,8 +23,8 @@ tags: [jekyll]
 ###### jekyll配置
 1. Ruby
 2. Bundler
-
-       gem install bundler
+	>
+     	gem install bundler
 
 3. Jekyll
 

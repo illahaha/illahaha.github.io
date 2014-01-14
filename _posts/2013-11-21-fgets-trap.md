@@ -10,10 +10,11 @@ tags: [fgets]
 *	-fgets用法
 *	-fgets陷阱
 *	-fgets后记
+
 ---
 ##feges用法
-
-    man fgets
+>
+	man fgets
 
 ##fgets陷阱
 
