@@ -6,12 +6,7 @@ category: "技巧"
 tags: [Google Drive]
 ---
 {% include JB/setup %}
-
 ---
-
-#Google Drive 被墙后下载方式
-
-----
 
 -	hosts修改
 
@@ -19,7 +14,7 @@ tags: [Google Drive]
 
 ----
 
-###hosts修改###
+##hosts修改##
 
 >	win7 x64 修改方式C:\Windows\System32\drivers\etc找到hosts文件，复制到桌面，添加如下：
 
@@ -27,7 +22,7 @@ tags: [Google Drive]
 
 >	将修改后的hosts复制回去，替换原来的.
 
-###下载完整安装包###
+##下载完整安装包##
 
 >	1.在
 
