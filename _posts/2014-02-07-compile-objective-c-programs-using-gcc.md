@@ -49,9 +49,9 @@ tags: [Objective C]
 
 >linux 上的编译
 >
->    gcc -o hello hello.m -I /usr/lib/GNUstep/System/Library/Headers \
->    -L /usr/lib/GNUstep/System/Library/Libraries/ -lgnustep-base \
->    -fconstant-string-class=NSConstantString
+>		gcc -o hello hello.m -I /usr/lib/GNUstep/System/Library/Headers \
+>		-L /usr/lib/GNUstep/System/Library/Libraries/ -lgnustep-base \
+>		-fconstant-string-class=NSConstantString
 >
 >or
 >
