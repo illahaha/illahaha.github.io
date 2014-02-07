@@ -15,6 +15,7 @@ tags: [Objective C]
 
 ---
 
+
 #编译环境
 
 >	1.	install GNUstep [http://www.gnustep.org/][0]
@@ -24,12 +25,12 @@ tags: [Objective C]
 > 		@interface HelloWorld : NSObject
 > 			- (void) hello;
 >		@end
->
+>		
 >	 	@implementation HelloWorld
 >			- (void) hello {
 >		NSLog(@"hello world!");
 >		}
->
+>		
 >		@end
 >		int main(void) {
 >			HelloWorld *hw = [[HelloWorld alloc] init];
@@ -53,7 +54,7 @@ tags: [Objective C]
 >		-fconstant-string-class=NSConstantString
 >
 >or
-
+>
 >		gcc -o hello hello.m -I /usr/include/GNUstep/ -L /usr/lib/GNUstep/ \
 >		-lgnustep-base -fconstant-string-class=NSConstantString
 
