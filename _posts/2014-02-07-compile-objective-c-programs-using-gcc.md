@@ -20,22 +20,22 @@ tags: [Objective C]
 >	1.	install GNUstep [http://www.gnustep.org/][0]
 >	2.	a sample
 >	
-		#import <Foundation/Foundation.h>
- 		@interface HelloWorld : NSObject
- 			- (void) hello;
- 		@end
+>		#import <Foundation/Foundation.h>
+> 		@interface HelloWorld : NSObject
+> 			- (void) hello;
+>		@end
 >
-	 	@implementation HelloWorld
-			- (void) hello {
-		NSLog(@"hello world!");
- 		}
+>	 	@implementation HelloWorld
+>			- (void) hello {
+>		NSLog(@"hello world!");
+>		}
 >
- 		@end
- 		int main(void) {
- 			HelloWorld *hw = [[HelloWorld alloc] init];
- 			[hw hello];
-			[hw release];
- 		}
+>		@end
+>		int main(void) {
+>			HelloWorld *hw = [[HelloWorld alloc] init];
+>			[hw hello];
+>			[hw release];
+>		}
 >
 
 #mac os x 编译
@@ -49,13 +49,13 @@ tags: [Objective C]
 >linux 上的编译
 >
 >		gcc -o hello hello.m -I /usr/lib/GNUstep/System/Library/Headers \
-		-L /usr/lib/GNUstep/System/Library/Libraries/ -lgnustep-base \
-		-fconstant-string-class=NSConstantString
-
+>		-L /usr/lib/GNUstep/System/Library/Libraries/ -lgnustep-base \
+>		-fconstant-string-class=NSConstantString
+>
 >or
 
 >		gcc -o hello hello.m -I /usr/include/GNUstep/ -L /usr/lib/GNUstep/ \
-		-lgnustep-base -fconstant-string-class=NSConstantString
+>		-lgnustep-base -fconstant-string-class=NSConstantString
 
 #windows编译
 
@@ -64,6 +64,7 @@ tags: [Objective C]
 >**Be very careful about the -lobjc and -lgnustep-base switch, they must appear after file name "hello.m", otherwise linking will fail.**
 
 ---
+
 from:[http://www.cnblogs.com/jack204/archive/2012/3/21.html][1]
 
 ---
