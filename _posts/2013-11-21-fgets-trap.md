@@ -2,7 +2,7 @@
 layout: post
 title: "fgets trap"
 description: "trap"
-category: "code"
+category: "linux"
 tags: [fgets]
 ---
 {% include JB/setup %}

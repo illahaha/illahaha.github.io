@@ -2,7 +2,7 @@
 layout: post
 title: "Google Drive install"
 description: "Google Drive install in ch"
-category: "技巧"
+category: "tools"
 tags: [Google Drive]
 ---
 {% include JB/setup %}

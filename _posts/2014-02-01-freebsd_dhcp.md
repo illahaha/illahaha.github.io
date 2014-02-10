@@ -2,7 +2,7 @@
 layout: post
 title: "freebsd_dhcp"
 description: "dhcp"
-category: "freebsd"
+category: "linux"
 tags: [dhcp]
 ---
 {% include JB/setup %}

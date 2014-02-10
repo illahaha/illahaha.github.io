@@ -2,7 +2,7 @@
 layout: post
 title: "jekyll搭建github博客"
 description: "github学习"
-category: "github"
+category: "tools"
 tags: [jekyll]
 ---
 {% include JB/setup %}

@@ -2,7 +2,7 @@
 layout: post
 title: "Compile Objective C Programs Using gcc"
 description: "Compile Objective C Programs Using gcc"
-category: "Objective C"
+category: "mac os x"
 tags: [Objective C]
 ---
 {% include JB/setup %}
