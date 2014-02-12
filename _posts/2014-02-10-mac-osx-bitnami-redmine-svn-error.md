@@ -21,8 +21,7 @@ tags: [svn server]
 
 错误修复:
 
-1. 在<installdir /apps/redmine/htdocs/lib/redmine/scm/adapters/subversion_adapter.rb中
-2.找到位置
+在installdir/apps/redmine/htdocs/lib/redmine/scm/adapters/subversion_adapter.rb中找到位置
 
     27:-SVN_BIN = Redmine::Configuration['scm_subversion_command'] || "svn"  
     27:+SVN_BIN = Redmine::Configuration['scm_subversion_command'] || "<installdir /subversion/bin/svn"
