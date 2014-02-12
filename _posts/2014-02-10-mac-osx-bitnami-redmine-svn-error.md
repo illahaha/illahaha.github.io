@@ -2,7 +2,7 @@
 layout: post
 title: "mac osx bitnami redmine svn error"
 description: "svn server"
-category: "mac os x"
+category: "mac osx"
 tags: [svn server]
 ---
 {% include JB/setup %}
