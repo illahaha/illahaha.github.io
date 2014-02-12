@@ -30,5 +30,3 @@ tags: [svn server]
 3.重启apache
 
     <installdir /ctlscript.sh restart apache
-
----
