@@ -19,6 +19,7 @@ tags: [Objective C]
 
 1.	install GNUstep [http://www.gnustep.org/][0]
 2.	a sample
+>
 
     #import <Foundation/Foundation.h>
     @interface HelloWorld : NSObject
