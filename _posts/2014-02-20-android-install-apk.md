@@ -64,3 +64,23 @@ xml中获取信息：
     </application>
 
 在例子中，可以找到包名在节点“application”的属性“android:name=”。
+
+#adb 安装#
+	adb install -r apk name
+
+例如：
+	
+	adb install -r test.apk
+
+#pm 安装#
+	pm install -r apk name
+例如:
+
+	pm install -r "/data/local/tmp/test.apk"
+
+#启动#
+
+	am start -D -n "com.example.testinject/com.example.testinject.MainActivity" 
+
+---
+[1]:http://blog.csdn.net/new_abc/article/details/7435508
