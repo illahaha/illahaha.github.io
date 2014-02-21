@@ -64,6 +64,7 @@ xml中获取信息：
     </application>
 
 在例子中，可以找到包名在节点“application”的属性“android:name=”。
+在“activity”节点的子节点有“<action android:name="android.intent.action.MAIN"/>”，说明是启动类，在启动过程中会用到。
 
 #adb 安装#
 	adb install -r apk name
